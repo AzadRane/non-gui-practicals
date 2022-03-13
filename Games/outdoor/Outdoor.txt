@@ -1,0 +1,67 @@
+package Games.outdoor;
+
+import java.util.Scanner;
+
+public class Outdoor {
+    
+    public class Cricket 
+    {
+        String pname;
+        Scanner sc = new Scanner(System.in);
+        public Cricket()
+        {
+            System.out.println("Enter the player name");
+            pname =sc.next();
+        }
+
+        public Cricket(String s)
+        {
+            pname = s;
+        }
+
+        String disp()
+        {
+            return pname;
+        }
+    }
+    public class Hockey 
+    {
+        String pname;
+        Scanner sc = new Scanner(System.in);
+        public Hockey()
+        {
+            System.out.println("Enter the player name");
+            pname =sc.next();
+        }
+
+        public Hockey(String s)
+        {
+            pname = s;
+        }
+
+        String disp()
+        {
+            return pname;
+        }
+    }
+    public class Football 
+    {
+        String pname;
+        Scanner sc = new Scanner(System.in);
+        public Football()
+        {
+            System.out.println("Enter the player name");
+            pname =sc.next();
+        }
+
+        public Football(String s)
+        {
+            pname = s;
+        }
+
+        String disp()
+        {
+            return pname;
+        }
+    }
+}
